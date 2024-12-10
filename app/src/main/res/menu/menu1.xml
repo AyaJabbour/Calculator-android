@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+        <item
+            android:id="@+id/standard"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="Standard"
+            />
+        <item
+            android:id="@+id/scientifique"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+            android:title="Scientifique" />
+        <item
+            android:id="@+id/graphique"
+            android:orderInCategory="102"
+            app:showAsAction="never"
+            android:title="Graphique" />
+        <item
+            android:id="@+id/programmeur"
+            android:orderInCategory="103"
+            app:showAsAction="never"
+            android:title="programmeur" />
+        <item
+            android:id="@+id/calc_device"
+            android:orderInCategory="104"
+            app:showAsAction="never"
+            android:title="Device" />
+        <item
+            android:id="@+id/calc_volume"
+            android:orderInCategory="105"
+            app:showAsAction="never"
+            android:title="Volume" />
+        <item
+            android:id="@+id/calc_longueur"
+            android:orderInCategory="106"
+            app:showAsAction="never"
+            android:title="Longueur" />
+        <item
+            android:id="@+id/calc_poids_masse"
+            android:orderInCategory="107"
+            app:showAsAction="never"
+            android:title="Poids_et_masse" />
+        <item
+            android:id="@+id/calc_temperature"
+            android:orderInCategory="108"
+            app:showAsAction="never"
+            android:title="Temperature" />
+    </group>
+</menu>
